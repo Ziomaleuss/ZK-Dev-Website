@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../FONT/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AD';
+    src: url('../../FONT/Road_Rage.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

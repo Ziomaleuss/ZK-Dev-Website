@@ -1,0 +1,177 @@
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.959), rgba(29, 29, 29, 0.925)),
+    url("../../../sorces/images/back.gif");
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+main{
+  
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.959), rgba(29, 29, 29, 0.925)),
+    url("../../../sorces/images/back.gif");
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+button
+{
+color: black;
+background-color: white;
+border: none;
+border-radius: 5px;
+width: 5%;
+height: 3%;
+font-size: 18px;
+transition: 400ms;
+}
+button:hover
+{
+    box-shadow: 0px 0px 10px white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+button:active
+{
+    background-color: rgb(134, 134, 134);
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sekcja
+ {
+
+  box-shadow: 0px 0px 50px black;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: rgb(37, 37, 37);
+  width: 70%;
+  height: 40%;
+  border-radius: 25px;
+  transition: 400ms;
+}
+.sekcja:hover
+{
+    transform: scale(1.05);
+}
+.sekcja button {
+  box-shadow: 0px 0px 10px white;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+.sekcja button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.sekcja button:active {
+  border: none;
+  background-color: rgb(161, 161, 161);
+}
+.nag {
+  text-align: center;
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+  text-shadow: 0px 0px 3px white;
+}
+.text {
+  text-align: left;
+  color: rgb(207, 207, 207);
+}
+.lewo
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    border-radius: 25px;
+    padding: 30px;
+    
+}
+.prawo
+{
+    border-radius: 25px;
+    height: 100%;
+    width: 50%;
+    background:
+    linear-gradient(rgba(37, 37, 37, 0), rgba(37, 37, 37, 0.486)),
+    url("../../../sorces/images/v3no.png") center / cover no-repeat;
+    transition: 400ms;
+}
+.prawo:hover
+{
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.171);
+    transform: scale(1.02);
+
+}
+header
+{
+  margin-top: 20px;
+  width: 150px;
+ 
+  
+}
+header button
+{
+   border-radius: 10px;
+   width: 85%;
+   height: 30px;
+   font-size: 20px;
+   border: none;
+   transition: 400ms;
+
+}
+header button:hover
+{
+   box-shadow: 0px 0px 8px rgb(255, 255, 255);
+   transform: scale(1.05);
+}
+  header button:active
+{
+    transform: scale(0.9);
+    background-color: gray;
+}
+.div2
+{
+  font-size: 40px;
+  font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V3NO | Gallery</title>
+    <link rel="stylesheet" href="../../CSS/gallery/style.css">
+    <link rel="stylesheet" href="../../CSS/tools/nav-bar.css">
+    <link rel="stylesheet" href="../../CSS/tools/fonts.css">
+</head>
+<body>
+    <div class="nav">
+        <img src="../../IMG/misc/logo.png" alt="Logo" class="logo">
+
+        <nav>
+            <a href="../../index.html"><button>Home</button></a>
+            <a href="../gallery/gallery.html"><button>Gallery</button></a>
+            <a href="../apply/apply.html"><button>Apply</button></a>
+            <a href="../info/info.html"><button>About Us</button></a>
+        </nav>
+
+        <a href="https://discord.gg/H6R7ATENrg" class="discord-btn">
+            <img src="../../IMG/misc/discord.png" alt="Discord" class="discord-icon">
+        </a>
+    </div>
+    <div class="main">
+
+    </div>
+  <footer class="nav">
+    <p class="p3">© 2025 V3NO Official website.</p>
+    <p class="right-text">Made by LeVaZi</p>
+    <a href="https://discord.gg/EfYhGDW2Ju" class="ad-levazi">
+      <img src="../../IMG/misc/lvz.gif" alt="Ad" class="ad">
+    </a>
+  </footer>
+
+    <script>
+        const imagesCount = 17;
+        const imagesContainer = document.querySelector(".main");
+    
+        for (let i = imagesCount; i >= 1; i--) {
+            const img = document.createElement('img');
+            img.src = `../../IMG/gallery/proj${i}.png`;
+            img.alt = `Screenshot ${i}`;
+            imagesContainer.appendChild(img);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 40px;
+  flex-wrap: wrap; 
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('../../IMG/gallery/proj17.png') no-repeat center/cover;
+  filter: brightness(20%) blur(5px);
+  z-index: -1;
+  position: fixed;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero-text h1 span {
+  color: rgb(230, 41, 41);
+  font-family: 'AD';
+  text-shadow: 0 0 10px rgba(230,41,41,0.8);
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #ccc;
+}
+
+.requirements {
+  margin: 40px auto;
+  margin-right: 200px;
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 18px;
+  padding: 30px;
+  font-size: 20px;
+  color: #fff;
+  animation: fadeIn 1s ease forwards;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 4px 25px rgba(0,0,0,0.45);
+}
+
+.requirements h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(255, 61, 61);
+  margin-bottom: 25px;
+  text-shadow: 0 0 8px rgba(255,61,61,0.6);
+}
+
+.requirements .item {
+  display: flex;
+  align-items: center;
+  margin: 14px auto;
+  padding: 12px 16px;
+  border-radius: 12px;
+  max-width: 420px;
+  background: rgba(255,255,255,0.05);
+  transition: all 0.35s ease;
+  cursor: default;
+  opacity: 1;        
+  transform: translateY(0); 
+}
+
+
+.requirements .item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+.requirements .item img {
+  width: 24px;
+  margin-right: 12px;
+  filter: drop-shadow(0 0 4px rgba(255,61,61,0.6));
+}
+
+.apply-btn {
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 18px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.apply-btn:hover {
+  background: #e62929;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.apply-btn:active {
+  transform: scale(0.96);
+}
+
+@media (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .apply-btn {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .requirements {
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .requirements h3 {
+    font-size: 22px;
+  }
+
+  .requirements .item {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+  .apply-btn {
+    width: 100%;
+    max-width: 280px;
+    margin: 20px auto;
+    display: block;
+  }
+}

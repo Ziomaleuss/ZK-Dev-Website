@@ -1,0 +1,153 @@
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.959), rgba(29, 29, 29, 0.925)),
+    url("../../../sorces/images/back.gif");
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+main{
+  
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.959), rgba(29, 29, 29, 0.925)),
+    url("../../../sorces/images/back.gif");
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.sekcja
+ {
+    flex-direction: column;
+  box-shadow: 0px 0px 50px black;
+  margin: 30px;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding: 30px;
+  background-color: rgb(37, 37, 37);
+  width: 20%;
+  min-width: 20%;
+  height: 70%;
+  border-radius: 25px;
+  transition: 400ms;
+}
+
+.sekcja:hover
+{
+    width: 800px;
+}
+span
+{
+    font-weight: bold;
+}
+.nag {
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+  text-shadow: 0px 0px 3px white;
+}
+.text {
+  text-align: left;
+  color: rgb(207, 207, 207);
+}
+.sekcja button {
+  box-shadow: 0px 0px 10px white;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+.sekcja button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.sekcja button:active {
+  border: none;
+  background-color: rgb(161, 161, 161);
+  transform: scale(0.9);
+}
+.imageclearom
+{
+    border-radius: 25px;
+    height: 60%;
+    width: 100%;
+    float: right;
+    background:
+    linear-gradient(rgba(37, 37, 37, 0.158), rgb(37, 37, 37)),
+    url("../../../sorces/images/email-icon.png") center / cover no-repeat;
+}
+.imagecleardc
+{
+    border-radius: 25px;
+    height: 60%;
+    width: 100%;
+    float: right;
+    background:
+    linear-gradient(rgba(37, 37, 37, 0.158), rgb(37, 37, 37)),
+    url("../../../sorces/images/discord.png") center / cover no-repeat;
+}
+.imageclearig
+{
+    border-radius: 25px;
+    height: 60%;
+    width: 100%;
+    float: right;
+    background:
+    linear-gradient(rgba(37, 37, 37, 0.158), rgb(37, 37, 37)),
+    url("../../../sorces/images/insta-icon.png") center / cover no-repeat;
+}
+.info
+{
+  margin-bottom: 10%;
+}
+header
+{
+  
+  width: 150px;
+ 
+  
+}
+header button
+{
+   border-radius: 10px;
+   width: 85%;
+   height: 30px;
+   font-size: 20px;
+   border: none;
+   transition: 400ms;
+
+}
+header button:hover
+{
+   box-shadow: 0px 0px 8px rgb(255, 255, 255);
+   transform: scale(1.05);
+}
+  header button:active
+{
+    transform: scale(0.9);
+    background-color: gray;
+}

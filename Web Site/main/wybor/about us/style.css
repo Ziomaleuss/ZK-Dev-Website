@@ -1,0 +1,411 @@
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background:
+    linear-gradient(rgba(29, 29, 29, 0.959), rgba(29, 29, 29, 0.925)),
+    url("../../../sorces/images/back.gif");
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  
+}
+
+main{
+  
+  
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+button
+{
+color: black;
+background-color: white;
+border: none;
+border-radius: 5px;
+width: 5%;
+height: 3%;
+font-size: 18px;
+transition: 400ms;
+}
+button:hover
+{
+    box-shadow: 0px 0px 10px white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+button:active
+{
+    background-color: rgb(134, 134, 134);
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sekcja
+ {
+
+  box-shadow: 0px 0px 50px black;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: rgb(37, 37, 37);
+  width: 70%;
+  height: 40%;
+  border-radius: 25px;
+  transition: 400ms;
+}
+.sekcja:hover
+{
+    transform: scale(1.05);
+}
+.sekcja button {
+  box-shadow: 0px 0px 10px white;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: 400ms;
+}
+
+.sekcja button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.sekcja button:active {
+  border: none;
+  background-color: rgb(161, 161, 161);
+}
+.nag {
+  text-align: center;
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+  text-shadow: 0px 0px 3px white;
+}
+.text {
+  text-align: left;
+  color: rgb(207, 207, 207);
+}
+.lewo
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    border-radius: 25px;
+    padding: 30px;
+    
+}
+.prawo
+{
+    border-radius: 25px;
+    height: 100%;
+    width: 50%;
+    background:
+    linear-gradient(rgba(37, 37, 37, 0), rgba(37, 37, 37, 0.486)),
+    url("../../../sorces/images/v3no.png") center / cover no-repeat;
+    transition: 400ms;
+}
+.prawo:hover
+{
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.171);
+    transform: scale(1.02);
+
+}
+header
+{
+  margin-left: 70px;
+  margin-top: 20px;
+  width: 150px;
+ 
+  
+}
+header button
+{
+   border-radius: 10px;
+   width: 85%;
+   height: 30px;
+   font-size: 20px;
+   border: none;
+   transition: 400ms;
+
+}
+header button:hover
+{
+   box-shadow: 0px 0px 8px rgb(255, 255, 255);
+   transform: scale(1.05);
+}
+  header button:active
+{
+    transform: scale(0.9);
+    background-color: gray;
+}
+.blok1
+{
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+  
+}
+.blokp
+{
+  font-weight: bold;
+  transition: 400ms;
+}
+.blokp:hover
+{
+  text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.171);
+  
+}
+
+
+.blok1 img
+{
+  margin: 10px;
+  transition: 400ms;
+  border-radius: 50%;
+}
+.blok1 img:hover
+{
+  border-radius: 25px;
+  transform: scale(1.05);
+   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.76);
+}
+.blok1 div
+{
+  width: 40%;
+  border-radius: 25px;
+  text-align: left;
+  font-size:14px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.171);
+  filter: blur(15);
+}
+.blok2
+{
+  display: flex;
+  gap: 140px;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+  
+}
+.blok2 img
+{
+  border-radius: 25px;
+  transition: 400ms;
+}
+.blok2 img:hover
+{
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.171);
+    transform: scale(1.05);
+}
+.p2
+{
+  font-size: 18px;
+  color: rgb(197, 197, 197);
+}
+.bloklewo
+{
+  float: left;
+}
+.blokprawo
+{
+  text-align: left;
+  width: 40%;
+  float: right;
+}
+.blok3
+{
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+  
+}
+.p3
+{
+  font-weight: bold;
+  font-size: 60px;
+
+}
+.p4
+{
+  color: rgb(206, 206, 206);
+  font-size: 20px;
+
+}
+.gora
+{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 50%;
+  width: 50%;
+  
+}
+.dol
+{
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.wsr
+{
+  border: solid white 1px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 50%;
+  background-blend-mode: color;
+  background-color:  rgba(255, 255, 255, 0.034);
+}
+.bloczek
+{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 80px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.11);
+  transition: 400ms;
+}
+.bloczek:hover
+{
+   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.445);
+  transform: scale(1.05);
+}
+.bloczek:active
+{
+  
+   transform: scale(0.9);
+}
+footer
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(116, 116, 116);
+  padding: 10px;
+  background-color: rgb(37, 37, 37);
+}
+footer p
+{
+  transition: 200ms;
+}
+footer p:hover  
+{
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.37);
+}
+footer img
+{
+  transition: 200ms;
+  margin-left: 10px;
+}
+footer img:hover
+{
+  transform: scale(1.3)
+}
+footer img:active
+{
+  transform: scale(0.9)
+}
+.lab1
+{
+  cursor: pointer;
+}
+
+.user1 {
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+  
+  transition: opacity 200ms ease;
+  
+ 
+}
+.user1 img
+{
+  margin: 10px;
+  transition: 400ms;
+  border-radius: 50%;
+}
+.user1 img:hover
+{
+  border-radius: 25px;
+  transform: scale(1.05);
+   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.76);
+}
+.user1 div
+{
+  width: 40%;
+  border-radius: 25px;
+  text-align: left;
+  font-size:14px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.171);
+  filter: blur(15);
+}
+
+
