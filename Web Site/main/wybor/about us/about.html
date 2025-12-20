@@ -13,27 +13,32 @@
     <header>
         <a href="../wybor.html">    <button>Wróć</button>    </a>
     </header>
+      <section class="carousel">
+        <div class="slide active">
+          <section class="user1">
+            <img src="../../../sorces/images/start-pfp.png" width="400">
+            <p class="blokp">Ziomaleuss</p>
+            <div class="info">
+              <p class="blokp">WEB DEVELOPER / DESIGNER</p>
+              <p>Siema jestem programistą piszącym strony</p>
+            </div>
+          </section>
+        </div>
 
-  
-    
-    <section class="user1">
-      <img src="../../../sorces/images/start-pfp.png" width="400">
-      <p class="blokp">Ziomaleuss</p>
-      <div class="info">
-        <p class="blokp">WEB DEVELOPER / DESIGNER</p>
-        <p>Siema jestem programistą piszącym strony</p>
-      </div>
-    </section>
+        <div class="slide">
+          <section class="user1">
+            <img src="../../../sorces/images/cwel.png" width="400">
+            <p class="blokp">Vaxer</p>
+            <div class="info">
+              <p class="blokp">WEB DEVELOPER / DESIGNER</p>
+              <p>Chuj wie</p>
+            </div>
+          </section>
+        </div>
 
-    <section class="user1">
-      <img src="../../../sorces/images/cwel.png" width="400">
-      <p class="blokp">Vaxer</p>
-      <div class="info">
-        <p class="blokp">WEB DEVELOPER / DESIGNER</p>
-        <p>Chuj wie</p>
-      </div>
-    </section>
-
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+      </section>
   
 
 
@@ -73,6 +78,25 @@
     </a>
     </footer>
     
-    
-</body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      const slides = document.querySelectorAll('.slide');
+      let idx = 0;
+      function show(i){
+        slides.forEach(s => s.classList.remove('active'));
+        slides[i].classList.add('active');
+      }
+      document.querySelector('.carousel .next').addEventListener('click', function(){
+        idx = (idx + 1) % slides.length; show(idx); resetTimer();
+      });
+      document.querySelector('.carousel .prev').addEventListener('click', function(){
+        idx = (idx - 1 + slides.length) % slides.length; show(idx); resetTimer();
+      });
+      let timer = setInterval(function(){ idx = (idx + 1) % slides.length; show(idx); }, 5000);
+      function resetTimer(){ clearInterval(timer); timer = setInterval(function(){ idx = (idx + 1) % slides.length; show(idx); }, 5000); }
+      show(idx);
+    });
+    </script>
+
+    </body>
 </html>
