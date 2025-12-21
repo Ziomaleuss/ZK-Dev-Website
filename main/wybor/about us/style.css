@@ -541,6 +541,8 @@ footer img:active
   }
 
   .blokp {
+    margin-left: 8%;
+    margin-right: 8%;
     font-size: 18px;
     text-align: center;
   }
@@ -576,7 +578,8 @@ footer img:active
   }
 
   .wsr {
-    width: 100%;
+    margin: 10%;
+    width: 80%;
     margin-top: 20px;
   }
 
