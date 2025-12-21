@@ -598,3 +598,36 @@ footer img:active
     margin-left: 0;
   }
 }
+@media (max-width: 700px){
+  .user1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .blok2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blokprawo {
+    width: 90%;
+    padding: 0;
+  }
+
+  .blok3 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .gora, .dol {
+    width: 90%;
+  }
+}
