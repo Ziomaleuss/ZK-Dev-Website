@@ -480,5 +480,121 @@ footer img:active
   .carousel-btn{ font-size: 22px; padding: 8px 10px; }
   .slide img{ width: 80%; }
 }
+@media (max-width: 700px) {
 
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  main {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  header button {
+    width: 300px;
+    max-width: 400px;
+    height: 48px;
+  }
+
+  .blok2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    height: auto;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blok2 img {
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+  }
+
+  .blokprawo {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .blokp {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .p2 {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .blok3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    padding: 10% 5%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .gora, .dol {
+    width: 80%;
+    text-align: center;
+  }
+
+  .p3 {
+    font-size: 36px;
+  }
+
+  .p4 {
+    font-size: 16px;
+  }
+
+  .wsr {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .bloczek {
+    width: 100%;
+    height: 64px;
+    margin: 12px 0;
+  }
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 10px 5%;
+  }
+
+  footer img {
+    margin-left: 0;
+  }
+}

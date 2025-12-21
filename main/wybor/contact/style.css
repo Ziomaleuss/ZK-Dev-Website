@@ -152,3 +152,83 @@ header button:active{
   background: rgba(255,255,255,0.14);
   color: #111;
 }
+@media (max-width: 768px) {
+
+  body {
+    padding: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  header button {
+    width: 300px;
+    max-width: 400px;
+    height: 48px;
+  }
+
+ .sekcja {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* kolumna */
+  justify-content: center; /* pionowo */
+  align-items: center; /* poziomo */
+}
+
+  .sekcja:hover {
+    width: 90%; /* usuwa efekt rozjeżdżania na mobile */
+  }
+
+  .imageclearom,
+  .imagecleardc,
+  .imageclearig {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .info {
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .nag {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .sekcja button {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px; /* odstęp od reszty treści */
+}
+}
