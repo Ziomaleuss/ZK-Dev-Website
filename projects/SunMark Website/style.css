@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+header
+{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    
+    background-color: rgb(236, 236, 236);
+    display: flex;
+   
+}
+header img{
+    float: left;
+    display: block;
+    margin: 0 auto;
+    transition: 400ms;
+}
+header img:hover{
+    transform: scale(1.1);
+}
+
+ul 
+{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+li
+{
+    cursor: pointer;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(255, 0, 0, 0);
+    width: 150px;
+    color: rgb(255, 0, 0);
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 0)  ;
+    transition: 400ms;
+}
+li:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.lewo
+{
+    width: 50%;
+    height: 80vh;
+    background-color: rgba(38, 0, 255, 0);
+    float: left;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.lewo button
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgba(38, 0, 255, 0);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: 400ms;
+}
+.lewo button:hover
+{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.prawo
+{
+    width: 50%;
+    height: 80vh;
+    background-color: rgba(255, 0, 0, 0.349);
+    float: right;
+}
+.inline-continer
+{
+    display: flex;
+    background-color: red;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}

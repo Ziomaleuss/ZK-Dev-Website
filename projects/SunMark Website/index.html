@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunmark - Strona Główna</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+                <img src="img/icon-rbg.png" alt="Sunmark Logo" width="80">
+            
+            <nav>
+                <center>
+                <ul>
+                    <a href="#home"><label><li>Główna</li></label></a>
+                    <a href="#about"><label><li>O nas</li></label></a>
+                    <a href="#services"><label><li>Usługi</li></label></a>
+                    <a href="#contact"><label><li>Kontakt</li></label></a>
+                </ul>
+                </center>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="lewo">
+            <div class="inline-continer"></div>
+            <h1>Witamy w Sunmark</h1>
+            <p>Twój zaufany lokal z kebabem.</p>
+            <center>
+            <button>Zacznij teraz</button>
+            </center>    
+        </div>
+        
+    </main>
+    
+<script>
+    const images = ['img/kebab1.png', 'img/kebab2.jpg', 'img/kebab3.jpg'];
+    let currentIndex = 0;
+    
+    const imgElement = document.createElement('img');
+    imgElement.src = images[0];
+    imgElement.alt = "Kebab";
+    imgElement.style.cssText = "width: 785px; height: 785px; transition: opacity 0.8s ease-in-out;position: relative; left: 50px;object-fit: cover;object-position: center;";
+    
+    document.querySelector('main').insertBefore(imgElement, document.querySelector('.lewo'));
+    
+    setInterval(() => {
+        imgElement.style.opacity = '0';
+        setTimeout(() => {
+            currentIndex = (currentIndex + 1) % images.length;
+            imgElement.src = images[currentIndex];
+            imgElement.style.opacity = '1';
+        }, 250);
+    }, 3000);
+</script>
+</body>
+</html>
