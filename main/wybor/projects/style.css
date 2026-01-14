@@ -164,7 +164,7 @@ a{
     background:
     linear-gradient(rgba(37, 37, 37, 0), rgba(37, 37, 37, 0.486)),
     url("../../../sorces/images/Sunmark.png ") center / cover no-repeat;
-    transition: 400ms;
+    transition: 401ms;
 }
 .prawosm:hover
 {
