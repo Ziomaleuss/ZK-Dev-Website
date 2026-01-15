@@ -255,7 +255,6 @@ header button:active{
 }
 .blok3
 {
-  display: flex;
   text-align: center;
   justify-items: center;
   align-content: center;
@@ -278,38 +277,36 @@ header button:active{
   font-size: 20px;
 
 }
-.gora
+.wyborsocial
 {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
-  height: 50%;
-  width: 50%;
+  
+  width: 80%;
+  height: 70%;
+  display: flex;
+  gap: 50px;
   
 }
-.dol
+.bloczeksocial p
 {
-  width: 50%;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
+  transition: 400ms;
 }
-.wsr
+
+.bloczeksocial p:hover
 {
-  border: solid white 1px;
-  border-radius: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
-  width: 50%;
-  background-blend-mode: color;
-  background-color:  rgba(255, 255, 255, 0.034);
+  text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.719);
 }
+.bloczeksocial img
+{
+  cursor: pointer;
+  width: 100%;
+  height: 75%;
+  transition: 400ms;
+}
+.bloczeksocial img:hover
+{
+  transform: scale(1.1) rotate(+7deg);
+}
+
 .bloczek
 {
   justify-content: center;
@@ -436,6 +433,7 @@ footer img:active
   transform: translate(-50%, -50%);
 }
 .carousel-btn{
+  
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -495,6 +493,10 @@ footer img:active
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  div .info
+  {
+    width: 80%;
   }
 
   main {
@@ -558,21 +560,19 @@ footer img:active
     margin: 0;
   }
 
-  .blok3 {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 700px;
-    padding: 10% 5%;
-    height: auto;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .gora, .dol {
-    width: 80%;
+  .blok3 
+  {
+    margin: 0;
+    padding: 0;
     text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+    
   }
+ 
+
 
   .p3 {
     font-size: 36px;
@@ -582,11 +582,7 @@ footer img:active
     font-size: 16px;
   }
 
-  .wsr {
-    margin: 10%;
-    width: 80%;
-    margin-top: 20px;
-  }
+  
 
   .bloczek {
     width: 100%;
@@ -629,10 +625,20 @@ footer img:active
   }
 
   .blok3 {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
+  }
+  .bloczeksocial img
+  {
+    height: 35%;
+    width: 100%;
   }
 
   .gora, .dol {

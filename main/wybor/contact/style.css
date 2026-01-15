@@ -120,6 +120,8 @@ span
     linear-gradient(rgba(37, 37, 37, 0.158), rgb(37, 37, 37)),
     url("../../../sorces/images/insta-icon.png") center / cover no-repeat;
 }
+
+
 .info
 {
   margin-bottom: 10%;
@@ -197,7 +199,8 @@ header button:active{
 }
 
   .sekcja:hover {
-    width: 90%; /* usuwa efekt rozjeżdżania na mobile */
+    width: 90%;
+    transform: scale(1.03); /* usuwa efekt rozjeżdżania na mobile */
   }
 
   .imageclearom,
@@ -207,6 +210,7 @@ header button:active{
     height: 200px;
     margin-bottom: 10px;
   }
+   
 
   .info {
     margin-bottom: 5%;

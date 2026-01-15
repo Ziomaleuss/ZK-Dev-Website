@@ -161,7 +161,7 @@ header button:active{
 @media (max-width: 768px) {
 
   body {
-    height: 100%;
+    height: 120vh;
     padding: 2%;
   }
 
@@ -170,23 +170,36 @@ header button:active{
     padding-bottom: 10%;
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 1%;
     
   }
+  footer
+{
+  margin-top: 20px ;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(126, 126, 126);
+  font-size: 14px;
+}
+
 
   .imageclearom,
   .imageclearkn,
   .imageclearpr {
     width: 100%;
-    height: 35%;
+    min-height: 40%;
     min-height: 30vh;
   }
 
   .sekcja {
     width: 100%;
     min-height: 60%;
-    padding: 5%;
+    padding: 5%;  
     margin-bottom: 5%;
+    margin-top: 5%;
   }
 
   .nag {
@@ -203,16 +216,17 @@ header button:active{
     font-size: 4.5vw;
   }
 
-  header {
+   header {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin: 10px 0;
   }
 
   header button {
-    width: 400px;
-    height: 6vh;
-    margin-bottom: 8%;
+    width: 300px;
+    max-width: 400px;
+    height: 48px;
   }
 }
 
