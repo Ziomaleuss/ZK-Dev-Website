@@ -34,6 +34,17 @@ main
   padding-left: 70px;
   padding-right: 70px;
 }
+footer
+{
+  margin-top: 20px ;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(126, 126, 126);
+  font-size: 14px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -161,7 +172,7 @@ header button:active{
 @media (max-width: 768px) {
 
   body {
-    height: 120vh;
+    height: 130vh;
     padding: 2%;
   }
 
@@ -175,14 +186,7 @@ header button:active{
   }
   footer
 {
-  margin-top: 20px ;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(126, 126, 126);
-  font-size: 14px;
+  display: none;
 }
 
 
